@@ -11,39 +11,79 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+    <div class="container bg-light border fill">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border p-3 row">
+        <div class="col-sm-8">
           <a class="navbar-brand" href="#">Raj Kumar Shahu</a>
         </div>
-        <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+        <div class="col-sm-4 justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <div>
-            <img src="./assets/images/raj-photo.jpg" class="rounded float-left" alt="raj-photo" width="400px">
+
+      <div class="rounded h5 p-2 mt-2 bg-success text-white sticky-top">
+        About Me
       </div>
-      <footer class="footer fixed-bottom py-4 bg-dark text-white-50">
-            <div class="container text-center">
-              <small>&copy;
-                    <script type="text/javascript">
-                      document.write(new Date().getFullYear());
-                    </script>
-                    UofT SCS Coding Bootcamp</small>
-            </div>
-    </footer>
+
+      <div class="">
+        <div class="mr-5">
+          <img
+            src="./assets/images/raj-photo.jpg"
+            class="img-thumbnail float-left m-5 ml-0"
+            alt="raj-photo"
+            width="350px"
+          />
+          <div class="line-height mt-3">
+            <p>
+              Currently, I am enrolled in UofT Coding Bootcamp which provides
+              extensive training in fullstack webdevelopment technology.
+            </p>
+            <p>
+              I recently graduated from George Brown College where I obtained
+              various forms of computer programming languages, as well as in the
+              applied and theoretical aspects of computer hardware and
+              networking. I have thoroughly benefitted from the instructive
+              challenges that George Brown’s School of Computer Technology has
+              afforded.
+            </p>
+
+            <p>
+              More importantly, through the combination of training at George
+              Brown’s state-of-the-art computer laboratories, I have acquired
+              hands-on experience in all aspects of computer programming
+              including, professional communications, administrative duties and
+              computer hardware and networking. Throughout my practical and
+              academic courses at George Brown, I consistently displayed both an
+              aptitude and an enthusiasm for the task at hand.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="p-5">&nbsp;</div>
+    <footer class="footer fixed-bottom py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small
+          >&copy;
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          UofT SCS Coding Bootcamp</small
+        >
+      </div>
+    </footer>
   </body>
 </html>
